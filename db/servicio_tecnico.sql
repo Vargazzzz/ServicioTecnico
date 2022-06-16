@@ -20,6 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `servicio_system`
 --
+CREATE DATABASE `servicio_tecnico`;
 
 -- --------------------------------------------------------
 
@@ -43,8 +44,8 @@ CREATE TABLE `cliente` (
 --
 
 INSERT INTO `cliente` (`idCliente`, `idCedula`, `Nombre`, `Apellido`, `Direccion`, `Telefono`, `Correo`, `Empleado_idEmpleado`) VALUES
-(10, '1234', 'rafael', 'bustamante', 'los olivos', '0988', 'rafaelbb@gmail.com', 6),
-(11, '0987', 'esteban', 'salamanca', 'curagua', '34535', 'isaac@ggg.com', 7);
+(10, '1234', 'rafael', 'romero', 'los olivos', '0988', 'rafaelbb@gmail.com', 6),
+(11, '0987', 'richard', 'salamanca', 'curagua', '34535', 'abc@ggg.com', 7);
 
 -- --------------------------------------------------------
 
@@ -71,12 +72,12 @@ CREATE TABLE `empleado` (
 --
 
 INSERT INTO `empleado` (`idEmpleado`, `Cedula`, `pNombre`, `sNombre`, `pApellido`, `sApellido`, `Fecha_nacimiento`, `Direccion`, `Genero`, `telefono`, `Cargo`) VALUES
-(5, '27765209', 'Isaac ', 'Alejandro', 'Saado', 'Mathison', '2000-08-04', 'curagua', '1', '04249662043', 'Gerente'),
-(6, '000', 'alejandro', 'alias', 'guitierrez', 'rojas', '1984-02-03', 'San felix', '1', '099887', 'Gerente'),
-(7, '0989787', 'mathias', 'alejandro', 'gonzales', 'guzman', '1996-08-02', 'los olivos', '1', '868887', 'Tecnico'),
-(9, '28765', 'Mariam', 'Alejandra', 'Bislick', 'Arevalo', '2002-05-28', 'castilito', '2', '049482', 'Administrador'),
-(14, '1234', 'admin', 'sss', 'sss', 'sss', '2000-03-02', 'unare', '2', '34344', 'Gerente'),
-(15, '98765', 'karilis', 'alejo', 'ramos', 'sasa', '2000-08-04', 'los olivos', '2', '0975', 'Tecnico');
+(5, '28031356', 'Jose ', 'Antonio', 'Vargas', 'Serrano', '2000-10-27', 'Los Olivos', '1', '04148643504', 'Gerente'),
+(6, '28031702', 'Jesus', 'Daniel', 'Toussaint', 'Fuentes', '2001-08-10', 'San felix', '1', '04148515955', 'Tecnico'),
+(7, '0989787', 'mathias', 'alejandro', 'gonzales', 'guzman', '1996-08-02', 'los olivos', '1', '04144314578', 'Tecnico'),
+(9, '28765', 'Mariam', 'Alejandra', 'Bislick', 'Arevalo', '2002-05-28', 'castilito', '2', '04129871234', 'Administrador'),
+(14, '1234', 'admin', 'sss', 'sss', 'sss', '2000-03-02', 'unare', '2', '04141234211', 'Gerente'),
+(15, '98765', 'karilis', 'alejo', 'ramos', 'sasa', '2000-08-04', 'los olivos', '2', '04245673412', 'Tecnico');
 
 -- --------------------------------------------------------
 
@@ -194,8 +195,8 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id_usuario`, `nombre`, `contraseña`, `Empleado_idEmpleado`) VALUES
-(5, 'Isaac ', '27765209', 5),
-(6, 'alejandro', '000', 6),
+(5, 'Jose ', '28031356', 5),
+(6, 'Jesus', '28031702', 6),
 (7, 'mathias', '0989787', 7),
 (9, 'Mariam', '28765', 9),
 (14, 'admin', '1234', 14),

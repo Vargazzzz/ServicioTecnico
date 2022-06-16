@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<title>System</title>
+		<title>Servicio Tecnico</title>
         
         <meta charset="utf-8" />
         <meta charset="UTF-8">
