@@ -2,7 +2,7 @@
                 <div class="col-xs-12">
                     <hr />
                     <footer class="text-center well">
-                        <p>Desarrollado por Angel Puga</a></p>
+                        <p>Universidad Gran Mariscal de Ayacucho</a></p>
                     </footer>                
                 </div>    
             </div>

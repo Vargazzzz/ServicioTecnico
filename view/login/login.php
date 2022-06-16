@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>LOGIN</title>
+    <title>ACCESO</title>
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -123,7 +123,7 @@ img
  
 <div class="formulariocaja">
 <form method="post" action="?c=Usuario&a=Entrar" name="vaidrollteam">
-<div class="formtitulo">Login</div>
+<div class="formtitulo">Acceso</div>
 <div align="left" class="textoscajas">&#128273; Ingresar usuario</div>
 <input type="text" name="nombre" class="cajaentradatexto">
 <div align="left" class="textoscajas">
@@ -145,7 +145,7 @@ img
 </form>
 </div>
 <div class="autor">
-© 2022 Formulario Login. Todos los derechos reservados | Diseño de Isaac Saado 
+Jose Vargas y Jesus Toussaint
 <div>
 </div>
 </body>
